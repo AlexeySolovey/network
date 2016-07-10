@@ -1,0 +1,118 @@
+@media (max-width: 880px) {
+  .about {
+    padding: 50px 5px 25px 5px;
+  }
+
+  .network__text {
+    margin: 0;
+  }
+
+  .about__logo {
+    margin: 0;
+  }
+
+  .form {
+    text-align: center;
+  }
+
+  .gift__text {
+    margin: 0 0 10px 0;
+  }
+
+  .header,
+  .network {
+    text-align: center;
+  }
+
+  .network__link {
+    border: none;
+  }
+
+  .footer .right,
+  .about .right,
+  .header .left,
+  .network .right {
+    float: none;
+  }
+
+  .network__text,
+  .gift__title {
+    font-size: 34px;
+  }
+
+  .footer {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .footer .right,
+  .footer .left {
+    float: none;
+    width: 100%;
+  }
+
+  .footer__title,
+  .footer .right {
+    margin: 0 0 20px 0;
+  }
+
+  .gift__title {
+    margin: 0 0 10px 0;
+  }
+
+  .banner__name {
+    font-size: 37px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .form__field,
+  .card {
+    width: 100%;
+  }
+
+  .about {
+    margin-bottom: 10px;
+  }
+
+  .form {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .gift {
+    margin-bottom: 50px;
+  }
+
+  .gift__bonus {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .bonus__block {
+    width: 100%;
+  }
+
+  .video {
+    width: 500px;
+    height: 400px;
+  }
+
+  .footer__block {
+    width: 50%;
+  }
+
+  .about__container,
+  .multimedia {
+    background: none;
+  }
+
+  .heart, .comment__name {
+    margin-left: 0;
+  }
+}

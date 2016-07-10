@@ -1,0 +1,28 @@
+.footer{
+    background: #2c3e50;
+    color: #fff;
+    padding: 25px 5px 25px 70px;
+    &__link{
+        padding: 20px;
+        border-radius: 50%;
+        border: 1px solid rgb(255, 255, 255);
+        display: inline-block;
+        background-position: 50% center;
+        margin: 50px 0 0 15px;
+        &:hover{
+            background-color: #fff;
+        }
+    }
+    &__block{
+        width: 40%;
+        text-align: center;
+    }
+    &____title{
+        font: 18px "OpenSans-light", sans-serif;
+        margin: 0 0 20px 0;
+    }
+}
+.about-autor{
+    font: 14px "OpenSans-light", sans-serif;
+    margin: 10px 0;
+}

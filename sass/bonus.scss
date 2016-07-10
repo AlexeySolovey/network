@@ -1,0 +1,45 @@
+.bonus{
+    padding: 35px 35px 10px 35px;
+    background: #31a3f5;
+    background: -moz-linear-gradient(top, #31a3f5 0%, #38afff 38%, #38afff 60%, #32a3f6 100%);
+    background: -webkit-linear-gradient(top, #31a3f5 0%,#38afff 38%,#38afff 60%,#32a3f6 100%);
+    background: linear-gradient(to bottom, #31a3f5 0%,#38afff 38%,#38afff 60%,#32a3f6 100%);
+    text-align: center;
+    color: #fff;
+    &__title{
+        font: 32px "OpenSans-Bold", sans-serif;
+    }
+    &__text{
+        font: 24px "OpenSans-Light", sans-serif;
+        width: 60%;
+        margin: 0 auto;
+    }
+    &__img{
+        padding: 5px;
+        border: 2px solid #c8e8fe;
+    }
+}
+.download{
+    color: #fff;
+    background: #ff5442;
+    font: 24px "OpenSans-Bold", sans-serif;
+    border: none;
+    padding: 3px 15px;
+    padding-bottom: 7px;
+    @include box-shadow(1px 1px 1px #604352);
+    &:hover{
+        background: #fff;
+        color: #ff5442;
+    }
+}
+.bonus__block{
+  padding: 45px;
+  width: 50%;
+  display: inline-block;
+  margin: 0 0 0 -5px;
+  vertical-align: top;
+}
+.bonus__figcaption{
+  padding: 20px 0;
+  font: 24px "OpenSans-Bold", sans-serif;
+}

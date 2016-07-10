@@ -1,0 +1,40 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities/sprites";
+/* fonts */
+@import "fonts.scss";
+/* common */
+@import "common.scss";
+/* header */
+@import "header.scss";
+/* network */
+@import "network.scss";
+/* banner */
+@import "banner.scss";
+/* bonus */
+@import "bonus.scss";
+/* download-block */
+@import "download-block.scss";
+/* multimedia */
+@import "multimedia.scss";
+/* about */
+@import "about.scss";
+/* gift */
+@import "gift.scss";
+/* reviews */
+@import "reviews.scss";
+/* new-comments */
+@import "new-comments.scss";
+/* footer */
+@import "footer.scss";
+/* media-bg */
+@import "media-bg.scss";
+/* media-medium */
+@import "media-medium.scss";
+/* media-small */
+@import "media-small.scss";

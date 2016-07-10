@@ -1,0 +1,52 @@
+.reviews{
+    text-align: center;
+    &__count{
+        font: 36px "OpenSans-Bold", sans-serif;
+        color: #2c3e50;
+    }
+    &__comments{
+         font: 24px "OpenSans-Bold", sans-serif;
+        color: #2c3e50;
+    }
+    &__title{
+        @extend .reviews__count;
+    }
+    &__container{
+        max-width: 998px;
+    }
+}
+.count{
+    text-align: left;
+    margin: 0 0 30px 0;
+}
+.comments{
+    width: 100%!important;
+    resize: none;
+    min-height: 170px;
+    color: #2c3e50;
+    border: 2px solid #808b96;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    background: url("../img/foto.png") no-repeat 99% 98%;
+    font: 25px "OpenSans-Light", sans-serif;
+    @include border-radius (5px);
+    &:hover{
+        background: url("../img/foto-hover.png") no-repeat 99% 98%;
+    }
+    &:focus{
+        background: url("../img/foto-hover.png") no-repeat 99% 98%;
+    }
+}
+.reviews-btn{
+    border: 2px solid #808b96;
+    font: 25px "OpenSans-Light", sans-serif;
+    color: #2c3e50;
+    padding: 3px 10px;
+    padding-bottom: 7px;
+    background: transparent;
+    cursor: pointer;
+    &:hover{
+        color: #fff;
+        background: #2c3e50;
+    }
+}

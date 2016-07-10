@@ -1,0 +1,97 @@
+.new{
+    font: 30px "OpenSans-light", sans-serif;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    border-width: 0 0 1px 0;
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+.comment__name{
+    font: 22px "OpenSans-Bold", sans-serif;
+    color: #2c3e50;
+    margin: 0 0 30px 30px;
+}
+.comment__text{
+    font: 18px "OpenSans-light", sans-serif;
+    color: #2c3e50;
+    text-indent: 30px;
+}
+.margin{
+  display: block;
+  margin: 0 0 20px 0;
+}
+.heart{
+    display: inline-block;
+    height: 23px;
+    width: 25px;
+    background: url(../img/heart.png) no-repeat;
+    background-position: -25px 0;
+    cursor: pointer;
+    margin: 25px 15px 0 30px;
+    position: relative;
+    top: 2px;
+    &:hover{
+        background-position: 0 0;
+    }
+}
+.likes{
+    font: 22px "OpenSans-light", sans-serif;
+    color: #2c3e50;
+    margin: 0 15px 0 0;
+}
+.reply{
+    font: 22px "OpenSans-light", sans-serif;
+    position: relative;
+    color: #2c3e50;
+    opacity: 0.7;
+    &:hover{
+        opacity: 1;
+    }
+    &-link{
+        text-decoration: none;
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        height: 3px;
+        width: 3px;
+        background: #2c3e50;
+    }
+    &:before{
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    height: 3px;
+    width: 3px;
+    background: #2c3e50;
+    }
+}
+.comment{
+  text-align: left;
+    display: none;
+}
+.new-comments{
+  text-align: center;
+  padding: 0 5px 0 5px;
+}
+
+#comment-first{
+    display: block;
+}
+.btn-next-comment{
+    background: #fff;
+    font: 22px "OpenSans-light", sans-serif;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+    padding: 3px 85px;
+    padding-bottom: 7px;
+    margin: 20px 0;
+    &:hover{
+        background: #2c3e50;
+        color: #fff;
+    }
+}

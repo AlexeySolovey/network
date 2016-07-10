@@ -1,0 +1,41 @@
+.about{
+    overflow: auto;
+    padding: 50px 5px 70px 0;
+    background: #31a3f5;
+    background: -moz-linear-gradient(top, #31a3f5 0%, #38afff 38%, #38afff 60%, #32a3f6 100%);
+    background: -webkit-linear-gradient(top, #31a3f5 0%,#38afff 38%,#38afff 60%,#32a3f6 100%);
+    background: linear-gradient(to bottom, #31a3f5 0%,#38afff 38%,#38afff 60%,#32a3f6 100%);
+    text-align: center;
+    margin: 0 0 50px 0;
+    &__logo{
+        @extend .logo;
+        margin: 0 0 85px 0;
+    }
+    &__name{
+        font: 41px "OpenSans-Bold", sans-serif;
+        color: #e74c3c;
+        margin: 0 0 20px 0
+    }
+    &__text{
+        font: 27px/32px "OpenSans-Light", sans-serif;
+        color: #2c3e50;
+        padding: 0 15px;
+        padding-bottom: 15px;
+    }
+    &__container{
+        background: url(../img/autor.jpg) no-repeat 0 0;
+        background-size: contain;
+    }
+}
+.card{
+    width: 50%;
+    padding: 15px 25px;
+    @include box-shadow(2px 2px 2px rgba(0,0,0, .2));
+    background: #e0e6e7;
+    background: -moz-radial-gradient(center, ellipse cover, #e0e6e7 2%, #ecf0f1 52%, #e0e6e7 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #e0e6e7 2%,#ecf0f1 52%,#e0e6e7 100%);
+    background: radial-gradient(ellipse at center, #e0e6e7 2%,#ecf0f1 52%,#e0e6e7 100%);
+    clear: both;
+    position: relative;
+    top: 20px;
+}
